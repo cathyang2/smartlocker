@@ -1,0 +1,93 @@
+body, html, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #e0f7f7;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+  }
+  
+  .register-box {
+    background: white;
+    padding: 30px 20px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .icon-box {
+    background-color: #ccf5f5;
+    padding: 15px;
+    border-radius: 12px;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  .chip-icon {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  .register-submit-button {
+    background-color: black;
+    color: white;
+    padding: 12px;
+    border-color: #554848;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .register-submit-button:hover {
+    background-color: #333;
+  }
+  
+  
+  .signin-redirect {
+    position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 280px;
+  padding: 12px;
+  background-color: #ccf5f5; 
+  border: 1px solid #3b3636;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  color: black;
+    
+  }
+  
+  .signin-redirect:hover {
+    background-color: #b2ebeb;
+  }
+  
