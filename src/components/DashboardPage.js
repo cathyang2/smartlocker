@@ -6,10 +6,11 @@ import './DashboardPage.css';
 export default function DashboardPage() {
   return (
     <div className="dashboard-container">
-      <div className="dashboard-header">
-       
+        <div className="dashboard-header">
+        <FaArrowLeft className="icon back-icon" title="Back" />
         <div className="right-icons">
-         
+           <FaBell className="icon bell-icon" title="Notifications" />
+           <FaBars className="icon menu-icon" title="Menu" />
         </div>
       </div>
 
