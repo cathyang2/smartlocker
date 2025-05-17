@@ -1,7 +1,7 @@
 import React from 'react';
 import {FaArrowLeft, FaBell, FaBars} from 'react-icons/fa';
 import './DashboardPage.css';
-
+import { useNavigate } from 'react-router-dom';
 
 export default function DashboardPage() {
   return (
@@ -30,7 +30,7 @@ export default function DashboardPage() {
 
       <div className="dashboard-buttons">
         <button className="dashboard-btn">LOCKER LOGS</button>
-        <button className="dashboard-btn">ITEMS ON LOCKER</button>
+        <button className="dashboard-btn" onClick={() => navigate('/items')}>ITEMS ON LOCKER</button>
       </div>
     </div>
   );
