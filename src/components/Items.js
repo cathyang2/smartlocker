@@ -39,6 +39,7 @@ export default function Items() {
               <button onClick={() => handleRemoveItem(index)}>Remove</button>
             </li>
           ))
+  
         )}
       </ul>
     </div>
